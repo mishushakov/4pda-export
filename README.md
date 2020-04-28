@@ -4,8 +4,10 @@
 
 ## Подготовка
 
+0. Ставим [nodejs](https://nodejs.org/en/download/)
 1. `git clone` репозиторий
 2. `npm i`
+3. Читаем дальше
 
 ## Конфигурация
 

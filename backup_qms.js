@@ -25,7 +25,7 @@ const delay = (timeout) => {
     return new Promise((resolve) => setTimeout(resolve, timeout))
 }
 
-puppeteer.launch({})
+puppeteer.launch({args: [`--proxy-server=${process.env.PROXY}`]})
 .then(async (browser) => {
     const page = await browser.newPage()
     await page.setCookie(...cookie)
